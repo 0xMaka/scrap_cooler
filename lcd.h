@@ -17,9 +17,7 @@
 #include <vector>
 #include <string>
 #include <math.h>
-
-const int SDA_PIN = 4;
-const int SCL_PIN = 5;
+#include "config.h"
 
 // commands
 // --------- - - - - - - - - - - -- -
@@ -65,6 +63,9 @@ static int addr = 0x27;
 #define MAX_LINES  2
 #define MAX_CHARS  16
 
+// abstractions
+//-- - - - -----
+// --------- - - - - - - - - - - -- -
 const auto write = [] (const auto &&src, const auto len, const auto nostop) -> int {
   return i2c_write_blocking(i2c_default, addr, src, len, nostop);
 };
@@ -167,3 +168,4 @@ auto lcd_quick_init() -> void {
 };
 
 // --------- - - - - - - - - - - -- -
+
