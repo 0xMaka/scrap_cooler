@@ -163,7 +163,7 @@ Main factors to note:
 - Base frequency is 25kHz and is acceptable from 21kHz to 28kHz
 - Input has a TTL (Transistor-transistor logic) level and includes pull-up resistors to 5V or to 3.3V. 
 - - The signal is not inverted so a 100% duty cycle equates to max revolutions of the fan. 
-- Disconnected PWM signal will runs fan at max revolutions.
+- Disconnected PWM signal will run fan at max revolutions.
   
 
 
