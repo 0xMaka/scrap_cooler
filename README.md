@@ -23,6 +23,14 @@ Uses the Pico C++ SDK but there are no 3rd party libraries.
 <img src='https://github.com/0xMaka/scrap_cooler/assets/12489182/9d76476a-220e-4f5d-911c-67110a6a723c'/>
 </td>
   </tr>
+  <tr>
+<td>
+<img src='https://github.com/0xMaka/scrap_cooler/assets/12489182/cbb17ff8-23b9-4073-9371-488c76e6628e'/> 
+</td>
+<td>
+<img src='https://github.com/0xMaka/scrap_cooler/assets/12489182/cdb2d6cd-88e0-4b59-9b29-a5ea74c02201'/>
+</td>
+  </tr>
 </tbody>
 </table>
 
