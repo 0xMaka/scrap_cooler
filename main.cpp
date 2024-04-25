@@ -3,8 +3,8 @@
   #@author : maka
   #@notice : Project to utilise an old 4 pin pc fan, rehoused in a gutted Corsair power supply.
   Build uses a bidirectional logic converter for interfacing between the 3.3v mcu and the 5v lcd.
-  A voltage booster is used to drive the fan at 12v. Features a thermal resistor to take temperature readings,
-  a button input for switching between 3 fan speeds, providing feedback on the lcd. 
+  A voltage booster is used to drive the fan at 12v. Features a thermal resistor to take temperature 
+  readings, a button input for switching between 3 fan speeds, providing feedback on the lcd. 
 
   Uses the standard library/c++ sdk, but no 3rd party libraries.
 */
