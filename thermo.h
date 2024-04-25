@@ -26,6 +26,7 @@ const auto get_vout() -> double {
   const uint16_t in = adc_read();
   const double Vout = in * conversion_factor;  
   return Vout;
+};
 
 const auto adc26_init() -> void {
   adc_init();
