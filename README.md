@@ -69,6 +69,10 @@ A= x_2-By_2-C(y_2)^3
 $$
 
 Where:
+<table class="fixed-align">
+<tbody>
+  <tr>
+<td>
 
 $X_1 = 1/Tlow $ 
 <br>
@@ -81,7 +85,10 @@ $Y_2 = InRT$
 $X_3 = 1/Thigh$
 <br>
 $Y_3 = In RThigh$
-<br>
+
+</td>
+<td>     
+
 $T_i = Kelvin Temperature = t_i (°C) + 273.15$
 <br>
 $Tlow  = Low temperature calibration point $
@@ -92,7 +99,11 @@ $Thigh = High temperature calibration point$
 <br>
 $R1 = Resistance in ohms at temperature T_i$
 
-- https://hackmd.io/@maka/rk9LBHPZC
+</td>
+  </tr>
+</tbody>
+</table>
+
 - https://ew.lens.unifi.it/notes/About_Steinhart-Hart_Equation.pdf
 
 ---
