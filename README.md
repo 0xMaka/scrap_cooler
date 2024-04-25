@@ -1,5 +1,5 @@
 > Under Construction | Fixtures need to be made more permanent, code needs to be recomposed now the components are done, and some features want to be added. 
-> But it works effectively and I am getting busy with something for a protocol so who knows what gets done.
+> But it works pretty effectively and I am getting busy with something for a protocol so who knows what gets done.
 > Throwing it out there in case it can be of use to others. 
 > Released under GPL3 - Don't hurt yourself. 
 
@@ -117,7 +117,7 @@ $Tmid  = Mid temperature calibration point $
 <br>
 $Thigh = High temperature calibration point$
 <br>
-$R1 = Resistance in ohms at temperature T_i$
+$R_1 = Resistance in ohms at temperature T_i$
 
 </td>
   </tr>
@@ -129,7 +129,7 @@ $R1 = Resistance in ohms at temperature T_i$
 ---
 
 My math is my embarrassment so don't be put off, it isn't as heavy as it looks and we can offload the heaviest of it.
-We can get the temperature in kelvin by summing the coefficients A, base 10 log B, and base 10 log C^3
+We can get the temperature in kelvin by summing the coefficients A, B times base 10 log of *rt*, and C times base 10 log *rt*^3
 ```cpp
   // ...  
   const double r25 = 10000.0;  // resistance at 25 degrees C
@@ -242,7 +242,7 @@ Most common are the Hitachi 2 line displays, and depending on ROM will have 1 of
 - HD44780UA00, the standard (Japanese) version, includes katakana characters and some Greek letters and mathematical symbols
 - HD44780UA02, a European version, includes the complete set of Greek, Cyrillic and Western European characters (with diacritics)
 
-The Japanese version is far more prevalent, while The European version remains sort after as features many *novel* characters like currency symbols and arrows, a heart, bell or music note, freeing the CGROM for other custom characters.
+The Japanese version is far more prevalent, while the European version remains sort after as features many *novel* characters like currency symbols and arrows, a heart, bell or music note, freeing the CGROM for other custom characters.
 
 <table class="fixed-align">
 <tbody>
