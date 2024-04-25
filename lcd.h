@@ -18,22 +18,6 @@
 #include <string>
 #include <math.h>
 
-/* code to drive a 16x2 LCD via a I2C bridge chip (e.g. PCF8574)
-   
-   Using a level shifter on the I2C lines to run the board at 5v.
-   > 2 mosfets and 4 pull ups
-   > Connect gates to 3.3v, sources to pico sdc/scl, drains to lcd sda/scl.
-   > 1 pull up for each line, source side to 3.3v, drain to 5v.
-
-   Connections on Raspberry Pi Pico
-
-   GPIO 4 (pin 6) -> SDA on LCD bridge board
-   GPIO 5 (pin 7) -> SCL on LCD bridge board
-   5v   (pin 40)  -> VCC on LCD bridge board
-   GND  (pin 38)  -> GND on LCD bridge board
-
-*/
-
 const int SDA_PIN = 4;
 const int SCL_PIN = 5;
 
@@ -81,9 +65,6 @@ static int addr = 0x27;
 #define MAX_LINES  2
 #define MAX_CHARS  16
 
-// abstractions
-//-- - - - -----
-// --------- - - - - - - - - - - -- -
 const auto write = [] (const auto &&src, const auto len, const auto nostop) -> int {
   return i2c_write_blocking(i2c_default, addr, src, len, nostop);
 };
@@ -186,4 +167,3 @@ auto lcd_quick_init() -> void {
 };
 
 // --------- - - - - - - - - - - -- -
-
