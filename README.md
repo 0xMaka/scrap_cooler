@@ -17,18 +17,18 @@ Uses the Pico C++ SDK but there are no 3rd party libraries.
 <tbody>
   <tr>
 <td>
-<img src='https://github.com/0xMaka/scrap_cooler/assets/12489182/0449ff56-b081-46f6-a2a0-e185adc9ba7e'/> 
+<img src='https://github.com/0xMaka/scrap_cooler/assets/12489182/25884ae2-4687-4d3e-8d6b-a57fe817fa40'/>
 </td>
 <td>     
-<img src='https://github.com/0xMaka/scrap_cooler/assets/12489182/9d76476a-220e-4f5d-911c-67110a6a723c'/>
+<img src='https://github.com/0xMaka/scrap_cooler/assets/12489182/c8db2f3a-e734-41c6-9e85-e2b1c3319f4e'/>
 </td>
   </tr>
   <tr>
 <td>
-<img src='https://github.com/0xMaka/scrap_cooler/assets/12489182/cbb17ff8-23b9-4073-9371-488c76e6628e'/> 
+<img src='https://github.com/0xMaka/scrap_cooler/assets/12489182/cf584c35-be00-4f18-815b-4c30b8f37e6b'/> 
 </td>
 <td>
-<img src='https://github.com/0xMaka/scrap_cooler/assets/12489182/cdb2d6cd-88e0-4b59-9b29-a5ea74c02201'/>
+<img src='https://github.com/0xMaka/scrap_cooler/assets/12489182/403c242f-6d0c-42d9-8265-88a833c3c84c'/>
 </td>
   </tr>
 </tbody>
