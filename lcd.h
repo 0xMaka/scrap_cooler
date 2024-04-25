@@ -2,8 +2,6 @@
   #@title  : maka_lcd
   #@author : maka
   #@notice : Custom driver with some abstractions. 
-             Was partially an excersise in writing without loops, using functional 
-             techniques and recursion, on embedded devices.
 */
 
 #include <stdio.h>
